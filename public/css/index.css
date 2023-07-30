@@ -1,158 +1,157 @@
 .task1 {
-  transition-property: all;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
 }
 
 .task1:hover {
   transform: rotate(270deg);
-  animation-duration: 1s;
-  animation-timing-function: ease-in;
-  animation-direction: reverse;
 }
 
 .task2 {
-  transition-property: all;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: linear;
 }
 
 .task2:hover {
   transform: rotateX(135deg);
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  animation-direction: reverse;
 }
 
 .task3 {
-  transition-property: all;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease;
 }
 
 .task3:hover {
   transform: rotateY(45deg);
-  animation-duration: 1s;
-  animation-timing-function: ease;
 }
 
 .task4 {
-  transition-property: all;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: linear;
 }
 
 .task4:hover {
   transform: scale(1.3);
-  animation-duration: 1s;
-  animation-timing-function: linear;
 }
 
 .task5 {
-  transition-property: all;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
 }
 
 .task5:hover {
   transform: scaleX(1.5);
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
 }
 
 .task6 {
-  transition-property: all;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
 }
 
 .task6:hover {
   transform: scaleY(0.2);
-  animation-duration: 1s;
-  animation-timing-function: ease-in;
 }
 
 .task7 {
-  transition-property: all;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease;
 }
 
 .task7:hover {
   transform: skew(30deg);
-  animation-duration: 1s;
-  animation-timing-function: ease;
 }
 
 .task8 {
-  transition-property: all;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
 }
 
 .task8:hover {
   transform: skewX(25deg);
-  animation-duration: 1s;
-  animation-timing-function: ease-out;
 }
 
 .task9 {
-  transition-property: all;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
 }
 
 .task9:hover {
   transform: skewY(20deg);
-  animation-duration: 1s;
-  animation-timing-function: ease-in;
 }
 
 .task10 {
-  transition-property: all;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
 }
 
 .task10:hover {
   transform: translate(40px, 60px);
-  animation-duration: 1s;
-  animation-timing-function: ease-in;
 }
 
 .task11 {
-  transition-property: all;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
 }
 
 .task11:hover {
   transform: translateX(50px);
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
 }
 
 .task12 {
-  transition-property: all;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: linear;
 }
 
 .task12:hover {
   transform: translateY(30px);
-  animation-duration: 1s;
-  animation-timing-function: linear;
 }
 
 .task13 {
-  transition-property: all;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
 }
 
 .task13:hover {
   transform: translate3d(20px, 20px, 20px)
     rotate3d(2, 2, 2, 90deg);
-  animation-duration: 1s;
-  animation-timing-function: ease-out;
 }
 
 .task14 {
-  transition-property: all;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
 }
 
 .task14:hover {
   transform: rotate3d(2, 3, 3, 45deg) translateZ(40px);
-  animation-duration: 1s;
-  animation-timing-function: ease-in;
 }
 
 .task15 {
-  transition-property: all;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
 }
 
 .task15:hover {
-  transform: matrix(0.4, 1.1, 1.1, 1);
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
+  transform: matrix(0.4, 1.1, 1.1, 0, 1, 0);
 }
 
 .task16 {
   transition-property: matrix3d(1);
+  transition-timing-function: linear;
 }
 
 .task16:hover {
@@ -174,5 +173,4 @@
     15,
     1
   );
-  animation-timing-function: linear;
 }
